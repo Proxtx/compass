@@ -168,6 +168,7 @@ const getDegree = (A, B) => {
 };
 
 const getTargetStatus = async (B) => {
+  alert("fetch start");
   let v = await new Promise((r, e) =>
     navigator.geolocation.getCurrentPosition(r, r, {
       //enableHighAccuracy: true,
@@ -175,6 +176,8 @@ const getTargetStatus = async (B) => {
     })
   );
   if (v.code) alert("Error: " + JSON.stringify(v));
+
+  alert("fetch end");
 
   let distance =
     calcCrow(v.coords.latitude, v.coords.longitude, B[0], B[1]) * 1000;

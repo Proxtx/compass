@@ -174,7 +174,10 @@ const getTargetStatus = async (B) => {
       timeout: 5000,
     })
   );
-  if (v.code) alert("Error: " + JSON.stringify(v));
+  if (v.code) {
+    alert("Error: " + JSON.stringify(v));
+    location.pathname = location.pathname;
+  }
 
   let distance =
     calcCrow(v.coords.latitude, v.coords.longitude, B[0], B[1]) * 1000;

@@ -22,8 +22,7 @@ const routes = {
       //hochhäuser
       code: 88416,
       hint: "Hoch hinaus! Die Hochhäuser haben einen kleinen Park mit 9 Bäumen, addiert die Nummern die auf ihnen stehen, das ergibt die nächste Zahl!",
-      location: [50.99922255022839, 7.1245154852040455],
-      _location: [50.9914574, 7.096766],
+      location: [50.9914574, 7.096766],
     },
     88416: {
       //Finja home
@@ -56,8 +55,7 @@ const routes = {
       //hochhäuser
       code: 88416,
       hint: "Hoch hinaus! Die Hochhäuser haben einen kleinen Park mit 9 Bäumen, addiert die Nummern die auf ihnen stehen, das ergibt die nächste Zahl!",
-      location: [50.99922255022839, 7.1245154852040455],
-      _location: [50.9914574, 7.096766],
+      location: [50.9914574, 7.096766],
     },
     825: {
       //Finja home
@@ -90,8 +88,7 @@ const routes = {
       //hochhäuser
       code: 88416,
       hint: "Hoch hinaus! Die Hochhäuser haben einen kleinen Park mit 9 Bäumen, addiert die Nummern die auf ihnen stehen, das ergibt die nächste Zahl!",
-      location: [50.99922255022839, 7.1245154852040455],
-      _location: [50.9914574, 7.096766],
+      location: [50.9914574, 7.096766],
     },
     216: {
       //Finja home
@@ -124,8 +121,7 @@ const routes = {
       //hochhäuser
       code: 88416,
       hint: "Hoch hinaus! Die Hochhäuser haben einen kleinen Park mit 9 Bäumen, addiert die Nummern die auf ihnen stehen, das ergibt die nächste Zahl!",
-      location: [50.99922255022839, 7.1245154852040455],
-      _location: [50.9914574, 7.096766],
+      location: [50.9914574, 7.096766],
     },
     492: {
       //Finja home

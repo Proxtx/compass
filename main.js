@@ -204,6 +204,8 @@ const toRad = (Value) => {
 
 //console.log(await getTargetStatus([51.00000566999777, 7.1325991073443875]));
 
+if (!localStorage.GCODE) location.pathname = "/compass/route.html";
+
 const route = routes[localStorage.GCODE];
 
 const direction = document.getElementById("direction");

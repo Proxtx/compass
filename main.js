@@ -2,30 +2,35 @@ const routes = {
   1: {
     0: {
       //spielplatz
+      dmode: 1,
       code: 825,
       hint: "Jetzt steht ein kleiner Parkourlauf an! Schnappt euch ein Bier, rutscht die Rutsche runter, lauft geradeaus auf das Kletter-/Seilgerüst zu und klettert einmal im Kreis. Dabei muss bis zum Ende ein Bier getrunken werden! (Bitte filmen und in die Gruppe schicken; Bier muss im Video geöffnet werden und am Ende nachgewiesen leer sein/vom Läufer getrunken)",
       location: [50.9933246, 7.1046091],
     },
     825: {
       //kita
+      dmode: 2,
       code: 216,
       hint: "Ob ihr zählen und rechnen könnt? Wieviele Buchstaben sind auf dem Klingelschild der Kindertagesstätte, multipliziert mit dem morgigen Alter der Gastgeberin?",
       location: [50.9971046, 7.1007708],
     },
     216: {
       //hansen
+      dmode: 3,
       code: 492,
       hint: "Wat fott es, es fott! Kauft ein Kölsch im Wirtshaus Hansen, ext es und der Barkeeper sagt euch die nächste Nummer!",
       location: [50.998862, 7.0999595],
     },
     492: {
       //hochhäuser
+      dmode: 4,
       code: 88416,
       hint: "Hoch hinaus! Die Hochhäuser haben einen kleinen Park mit 9 Bäumen, addiert die Nummern die auf ihnen stehen, das ergibt die nächste Zahl!",
       location: [50.9914574, 7.096766],
     },
     88416: {
       //Finja home
+      dmode: 5,
       code: 13,
       hint: "Hinter Gittern! Haut als Team soviel Bier weg wie es streben auf Finjas Toilette (von außen) gibt!",
       location: [50.9958535, 7.1011889],
@@ -35,30 +40,35 @@ const routes = {
   2: {
     88416: {
       //spielplatz
+      dmode: 1,
       code: 825,
       hint: "Jetzt steht ein kleiner Parkourlauf an! Schnappt euch ein Bier, rutscht die Rutsche runter, lauft geradeaus auf das Kletter-/Seilgerüst zu und klettert einmal im Kreis. Dabei muss bis zum Ende ein Bier getrunken werden! (Bitte filmen und in die Gruppe schicken; Bier muss im Video geöffnet werden und am Ende nachgewiesen leer sein/vom Läufer getrunken)",
       location: [50.9933246, 7.1046091],
     },
     0: {
       //kita
+      dmode: 2,
       code: 216,
       hint: "Ob ihr zählen und rechnen könnt? Wieviele Buchstaben sind auf dem Klingelschild der Kindertagesstätte, multipliziert mit dem morgigen Alter der Gastgeberin?",
       location: [50.9971046, 7.1007708],
     },
     216: {
       //hansen
+      dmode: 3,
       code: 492,
       hint: "Wat fott es, es fott! Kauft ein Kölsch im Wirtshaus Hansen, ext es und der Barkeeper sagt euch die nächste Nummer!",
       location: [50.998862, 7.0999595],
     },
     492: {
       //hochhäuser
+      dmode: 4,
       code: 88416,
       hint: "Hoch hinaus! Die Hochhäuser haben einen kleinen Park mit 9 Bäumen, addiert die Nummern die auf ihnen stehen, das ergibt die nächste Zahl!",
       location: [50.9914574, 7.096766],
     },
     825: {
       //Finja home
+      dmode: 5,
       code: 13,
       hint: "Hinter Gittern! Haut als Team soviel Bier weg wie es streben auf Finjas Toilette (von außen) gibt!",
       location: [50.9958535, 7.1011889],
@@ -68,30 +78,35 @@ const routes = {
   3: {
     88416: {
       //spielplatz
+      dmode: 1,
       code: 825,
       hint: "Jetzt steht ein kleiner Parkourlauf an! Schnappt euch ein Bier, rutscht die Rutsche runter, lauft geradeaus auf das Kletter-/Seilgerüst zu und klettert einmal im Kreis. Dabei muss bis zum Ende ein Bier getrunken werden! (Bitte filmen und in die Gruppe schicken; Bier muss im Video geöffnet werden und am Ende nachgewiesen leer sein/vom Läufer getrunken)",
       location: [50.9933246, 7.1046091],
     },
     825: {
       //kita
+      dmode: 2,
       code: 216,
       hint: "Ob ihr zählen und rechnen könnt? Wieviele Buchstaben sind auf dem Klingelschild der Kindertagesstätte, multipliziert mit dem morgigen Alter der Gastgeberin?",
       location: [50.9971046, 7.1007708],
     },
     0: {
       //hansen
+      dmode: 3,
       code: 492,
       hint: "Wat fott es, es fott! Kauft ein Kölsch im Wirtshaus Hansen, ext es und der Barkeeper sagt euch die nächste Nummer!",
       location: [50.998862, 7.0999595],
     },
     492: {
       //hochhäuser
+      dmode: 4,
       code: 88416,
       hint: "Hoch hinaus! Die Hochhäuser haben einen kleinen Park mit 9 Bäumen, addiert die Nummern die auf ihnen stehen, das ergibt die nächste Zahl!",
       location: [50.9914574, 7.096766],
     },
     216: {
       //Finja home
+      dmode: 5,
       code: 13,
       hint: "Hinter Gittern! Haut als Team soviel Bier weg wie es streben auf Finjas Toilette (von außen) gibt!",
       location: [50.9958535, 7.1011889],
@@ -101,30 +116,35 @@ const routes = {
   4: {
     88416: {
       //spielplatz
+      dmode: 1,
       code: 825,
       hint: "Jetzt steht ein kleiner Parkourlauf an! Schnappt euch ein Bier, rutscht die Rutsche runter, lauft geradeaus auf das Kletter-/Seilgerüst zu und klettert einmal im Kreis. Dabei muss bis zum Ende ein Bier getrunken werden! (Bitte filmen und in die Gruppe schicken; Bier muss im Video geöffnet werden und am Ende nachgewiesen leer sein/vom Läufer getrunken)",
       location: [50.9933246, 7.1046091],
     },
     825: {
       //kita
+      dmode: 2,
       code: 216,
       hint: "Ob ihr zählen und rechnen könnt? Wieviele Buchstaben sind auf dem Klingelschild der Kindertagesstätte, multipliziert mit dem morgigen Alter der Gastgeberin?",
       location: [50.9971046, 7.1007708],
     },
     216: {
       //hansen
+      dmode: 3,
       code: 492,
       hint: "Wat fott es, es fott! Kauft ein Kölsch im Wirtshaus Hansen, ext es und der Barkeeper sagt euch die nächste Nummer!",
       location: [50.998862, 7.0999595],
     },
     0: {
       //hochhäuser
+      dmode: 4,
       code: 88416,
       hint: "Hoch hinaus! Die Hochhäuser haben einen kleinen Park mit 9 Bäumen, addiert die Nummern die auf ihnen stehen, das ergibt die nächste Zahl!",
       location: [50.9914574, 7.096766],
     },
     492: {
       //Finja home
+      dmode: 5,
       code: 13,
       hint: "Hinter Gittern! Haut als Team soviel Bier weg wie es streben auf Finjas Toilette (von außen) gibt!",
       location: [50.9958535, 7.1011889],
@@ -191,6 +211,7 @@ const distance = document.getElementById("distance");
 const instructions = document.getElementById("instructions");
 const code = document.getElementById("code");
 const send = document.getElementById("send");
+const dmode = document.getElementById("dmode");
 
 send.addEventListener("click", () => {
   if (!route[code.value]) {
@@ -204,6 +225,7 @@ send.addEventListener("click", () => {
 const updateData = async () => {
   if (!localStorage.code) localStorage.code = 0;
   let station = route[localStorage.code];
+  dmode.innerText = "dmode:" + station.dmode;
   let status = await getTargetStatus(station.location);
   direction.innerText = Math.floor(status.degree) + "°";
   distance.innerText = Math.floor(status.distance) + "M";

@@ -170,7 +170,7 @@ const getDegree = (A, B) => {
 const getTargetStatus = async (B) => {
   let v = await new Promise((r, e) =>
     navigator.geolocation.getCurrentPosition(r, r, {
-      enableHighAccuracy: true,
+      //enableHighAccuracy: true,
       timeout: 5000,
     })
   );
@@ -202,7 +202,7 @@ const toRad = (Value) => {
   return (Value * Math.PI) / 180;
 };
 
-console.log(await getTargetStatus([51.00000566999777, 7.1325991073443875]));
+//console.log(await getTargetStatus([51.00000566999777, 7.1325991073443875]));
 
 const route = routes[localStorage.GCODE];
 
